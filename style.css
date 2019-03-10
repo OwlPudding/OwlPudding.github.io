@@ -6,6 +6,7 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
   background: #FFFFFF;
@@ -35,7 +36,7 @@ canvas {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 .info h1 {
   text-align: center;
@@ -200,7 +201,7 @@ a:hover {
     flex-direction: column;
   }
   .info {
-    height: 73vh;
+    height: 73%;
   }
   #profile {
     flex-direction: column;
@@ -223,7 +224,7 @@ a:hover {
     margin-bottom: 10px;
   }
   #socials {
-    margin-top: 470px;
+    margin-top: 10px;
     margin-left: 0px;
   }
   #socials ul {
