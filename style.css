@@ -20,6 +20,7 @@ h1 {
   align-items: center;
   text-decoration: none;
   color: white;
+  width: fit-content;
 }
 .project img {
   width: 300px;
@@ -28,6 +29,7 @@ h1 {
   margin-left: 30px;
 }
 .project-title {
+  margin-top: 0;
   font-size: 35px;
   margin-bottom: 10px;
   font-weight: normal;
@@ -38,4 +40,91 @@ h1 {
 }
 .project-desc {
   font-size: 20px;
+}
+
+@media all and (max-width: 1440px) {
+  h1 {
+    font-size: 4em;
+  }
+  .gallery {
+  }
+  .project {
+  }
+  .project img {
+    width: 275px;
+  }
+  .text {
+  }
+  .project-title {
+  }
+  .project-date {
+  }
+  .project-desc {
+  }
+}
+@media all and (max-width: 1100px) {
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  #flags {
+    display: block;
+  }
+  .gallery {
+    margin-top: 50px;
+  }
+  .project {
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .project img {
+    width: 250px;
+  }
+  .text {
+    margin-left: 0;
+  }
+  .project-title {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  .project-date {
+    font-size: 18px;
+  }
+  .project-desc {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 500px) {
+  body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h1 #break {
+    display: block;
+  }
+  .gallery {
+  }
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
+  .project img {
+    width: 225px;
+  }
+  .text {
+  }
+  .project-title {
+    font-size: 25px;
+  }
+  .project-date {
+    font-size: 16px;
+  }
+  .project-desc {
+    font-size: 16px;
+  }
 }
